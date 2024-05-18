@@ -24,7 +24,7 @@ def login_page():
 def load_model():
     model_path = "Models.pkl"  # Verify the correct path
     try:
-        model = joblib.load("C:\\D Drive\\GoMyCode\\My App\\FI\\FI.pkl")
+        model = joblib.load("FI.pkl")
         st.success("Model loaded successfully!")
         return model
     except Exception as e:
